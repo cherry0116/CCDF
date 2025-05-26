@@ -6,7 +6,7 @@ Unsupervised remote sensing change detection aims to monitor and analyze changes
 
 ### CCDF architecture
 
-<img src="picture/pipeline.png" alt="vis2" style="zoom:30%;" />
+<img src="picture/pipeline.png" alt="vis2" width="300">
 
 our Consistency Change Detection Framework (CCDF) is trained in three stages. In the first stage, we leverage generative networks to achieve global style transfer and reconstruction of the bi-temporal remote sensing images. In this stage, we introduce a Cycle Consistency (CC) module to decouple the content and style information, enabling robust reconstruction across time points. The second stage focuses on learning a segmentation network to capture the regions that cannot be effectively transferred by the generative models. We apply a Change Segmentation (CS) module to capture the unreconstructed regions. Besides, we propose a Semantic Consistency (SC) module to emphasize the reconstruction of details, leading to more accurate segmentation of the changed areas. Finally, in the third stage, we alternate the fine-tuning of the generative network and the segmentation network, further boosting the overall performance of our change detection framework.
  
