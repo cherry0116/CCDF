@@ -62,7 +62,7 @@ def parse_opt():
     parser.add_argument('--patch_size', type=str, default='(224, 224)')
     parser.add_argument('--overlap_padding', type=str, default='(12, 12)')
     parser.add_argument('--aug_flag', type=str, default='Y')
-    parser.add_argument('--cycle_flag', type=str, default='N')
+    parser.add_argument('--cycle_flag', type=str, default='Y')
     parser.add_argument('--consist_flag', type=str, default='Y')
 
     parser.add_argument('-e', '--evaluate', action='store_true')
