@@ -1,4 +1,4 @@
-name: changedet
+name: CCDF
 channels:
   - defaults
 dependencies:
